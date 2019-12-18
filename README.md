@@ -32,3 +32,19 @@ pg_recvlogical -h 127.0.0.1  -U postgres -d postgres   --slot test_slot --start 
 ```code
 psql -At -f example1.sql -h 127.0.0.1 -U postgres  -d postgres
 ```
+
+## for  jdbc 
+
+> you  must delete created slot first
+
+* delete exisis  slot
+
+```code
+SELECT 'drop' FROM pg_drop_replication_slot('test_slot');
+```
+
+* running java demo
+
+```code
+
+```
