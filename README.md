@@ -46,5 +46,7 @@ SELECT 'drop' FROM pg_drop_replication_slot('test_slot');
 * running java demo
 
 ```code
-
+cd mypgcdc
+mvn clean package
+java -jar target/postgres-wal2json-app.jar
 ```
