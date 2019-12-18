@@ -1,0 +1,7 @@
+.idea
+target
+mypgcdc.iml
+.classpath
+.project
+.settings
+dependency-reduced-pom.xml
